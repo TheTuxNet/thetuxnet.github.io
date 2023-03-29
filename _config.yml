@@ -1,0 +1,15 @@
+title: CloBiz - Simone Russo
+# logo: "/images/logo.png?raw=true" # your photo (or logo) here
+description:  Code snippets & notes
+theme: jekyll-theme-hacker
+google_analytics: UA-48150112-4 # your Google Analytics tracking ID here
+author: Simone Russo
+paginate: 4
+# paginate_path: /page/:num/
+
+excerpt_separator: <!--more-->
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
