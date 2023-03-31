@@ -7,8 +7,6 @@ author: Simone Russo
 paginate: 4
 # paginate_path: /page/:num/
 
-excerpt_separator: <!--more-->
-
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
