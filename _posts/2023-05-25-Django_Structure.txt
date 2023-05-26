@@ -1,0 +1,45 @@
+---
+title: "Basic Django project structure"
+date: 2023-03-31
+excerpt: Project structure for a simple django project
+categories: django 
+tags: django
+---
+
+```
+django_project
+├── app/
+│   ├── migrations/
+│   ├── static/
+│   ├── templates/
+│   ├── tests/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── models.py
+│   ├── urls.py
+│   └── views.py
+├── config/
+│   ├── settings/
+│   │ ├── __init__.py
+│   │ ├── base.py
+│   │ ├── development.py
+│   │ ├── staging.py
+│   │ ├── production.py
+│   │ └── testing.py
+│   ├── __init__.py
+│   ├── asgi.py
+│   └── wsgi.py
+├── docs/
+├── scripts/
+├── static/
+├── media/
+├── tests/
+├── requirements/
+│   ├── base.txt
+│   ├── development.txt
+│   ├── staging.txt
+│   └── production.txt
+├── .env
+├── .gitignore
+└── manage.py
+```
