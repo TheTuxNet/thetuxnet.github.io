@@ -1,10 +1,11 @@
 ---
 title: "Basic Django project structure"
-date: 2023-03-31
+date: 2023-05-25
 excerpt: Project structure for a simple django project
 categories: django 
 tags: django
 ---
+# Basic Django project structure
 
 ```
 django_project
@@ -43,3 +44,11 @@ django_project
 ├── .gitignore
 └── manage.py
 ```
+Requirements and settings should contain separate files for each environment
+
+## Settings
+- base.py (common settings)
+- local.py (local dev settings - extends base.py)
+- staging.py (staging version - extends base.py)
+- test.py (test settings - extends base.py)
+- production.py (live server settings - extends base.py)
