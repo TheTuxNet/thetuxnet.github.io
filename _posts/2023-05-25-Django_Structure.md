@@ -5,7 +5,7 @@ excerpt: Project structure for a simple django project
 categories: django 
 tags: django
 ---
-# Basic Django project structure
+# Folder structure
 
 ```
 django_project
